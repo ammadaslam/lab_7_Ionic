@@ -15,6 +15,7 @@ import { ConnaughtCountiesPage } from './connaught-counties.page';
     IonicModule,
     ConnaughtCountiesPageRoutingModule
   ],
+  exports:[ConnaughtCountiesPage],
   
   declarations: [ConnaughtCountiesPage]
 })

@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LeinsterCountiesPage implements OnInit {
 
+
+  counties: string[] = ["Carlow", "Dublin", "Kildare",
+"Kilkenny", "Laois", "Longford", "Louth", "Meath",
+"Offaly", "Westmeath", "Wexford", "Wicklow"];
+
   constructor() { }
 
   ngOnInit() {

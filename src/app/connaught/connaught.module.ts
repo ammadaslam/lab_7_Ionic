@@ -7,6 +7,7 @@ import { IonicModule } from '@ionic/angular';
 import { ConnaughtPageRoutingModule } from './connaught-routing.module';
 
 import { ConnaughtPage } from './connaught.page';
+import {ConnaughtCountiesPageModule} from '../connaught-counties/connaught-counties.module';
 
 
 @NgModule({
@@ -14,7 +15,9 @@ import { ConnaughtPage } from './connaught.page';
     CommonModule,
     FormsModule,
     IonicModule,
-    ConnaughtPageRoutingModule
+    ConnaughtPageRoutingModule,
+    
+    ConnaughtCountiesPageModule
   ],
   declarations: [ConnaughtPage]
 })
